@@ -1,0 +1,68 @@
+baseURL: "https://pauladruschke.github.io/"
+title: Paula Druschke
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+disableKinds:
+  - taxonomy
+  - term
+
+menu:
+    main:
+        - name: About
+          url: /
+          weight: 1
+        - name: Research
+          url: research/
+          weight: 2
+        - name: Media
+          url: media/
+          weight: 3
+        - name: Contact
+          url: contact/
+          weight: 4
+
+params:
+    fontsURL: "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@500;600;700&display=swap"
+    description: "Paula Druschke is a Predoctoral Research Fellow at LSE and Junior Economist at the World Inequality Lab."
+    author: Paula Druschke
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["research","media"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: false
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: false
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

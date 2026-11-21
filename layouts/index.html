@@ -1,0 +1,20 @@
+{{- /* Home page = the About page. Same structure as _default/single.html, without a visible title. */ -}}
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent"></h1>
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    <ul class="post-tags"></ul>
+  </footer>
+</article>
+
+{{- end }}{{/* end main */}}

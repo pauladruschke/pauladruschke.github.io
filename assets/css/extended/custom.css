@@ -1,0 +1,492 @@
+/* Colours. Change a line here and the whole site follows. */
+:root {
+    --heading: #151515;  /* headings, menu, links */
+    --ink: #262626;      /* body text */
+    --muted: #5c5c5c;    /* secondary text */
+    --label: #6b6b6b;    /* small uppercase labels */
+    --bg: #fbfbf9;       /* page background (soft off-white) */
+    --hairline: #e4e4e0;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Headings and titles in a clean sans-serif, bold, dark */
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: var(--heading);
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.10);
+}
+
+body, .main {
+    background: var(--bg) !important;
+}
+
+.main {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+img {
+    border-radius: 0 !important;
+}
+
+/* Links */
+a {
+    color: var(--heading) !important;
+    text-decoration: none !important;
+    transition: color 0.15s ease;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+a:focus-visible,
+summary:focus-visible {
+    outline: 2px solid var(--heading);
+    outline-offset: 3px;
+}
+
+/* ==========================================================================
+   Header and navigation
+   ========================================================================== */
+
+header.header {
+    --theme: var(--bg);
+    background: var(--bg) !important;
+    backdrop-filter: none !important;
+    border: none !important;
+    border-bottom: 1px solid var(--hairline) !important;
+    box-shadow: none !important;
+    padding: 24px 40px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+footer.footer {
+    background: var(--bg) !important;
+}
+
+.logo {
+    display: none !important;
+}
+
+nav.nav {
+    display: flex;
+    width: 100% !important;
+    justify-content: center !important;
+}
+
+ul#menu {
+    display: flex !important;
+    width: 100% !important;
+    gap: 46px !important;
+    justify-content: center !important;
+    list-style: none !important;
+}
+
+ul#menu a {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--muted) !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+ul#menu a:hover {
+    color: var(--heading) !important;
+}
+
+/* Active page: a single thin underline (the theme's own border and shadow are switched off) */
+ul#menu li,
+ul#menu a,
+ul#menu .active {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+ul#menu .active {
+    color: var(--heading) !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+    text-decoration-color: var(--heading) !important;
+    text-decoration-thickness: 1.5px !important;
+    text-underline-offset: 9px !important;
+}
+
+/* ==========================================================================
+   Page content
+   ========================================================================== */
+
+.post-header {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.post-content {
+    max-width: 1100px !important;
+    margin: 0 auto;
+    padding: 0 20px !important;
+}
+
+.post-content p {
+    font-size: 1rem;
+}
+
+.post-content h2 {
+    font-size: 0.85rem !important;
+    letter-spacing: 0.1em !important;
+    margin-bottom: 30px !important;
+}
+
+.post-meta {
+    display: none !important;
+}
+
+/* Links inside pages: dark, thin underline, black on hover */
+.post-content a {
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 0.22em !important;
+    text-decoration-color: rgba(0, 0, 0, 0.35) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.post-content a:hover {
+    text-decoration-color: #000 !important;
+}
+
+.post-content details a,
+.post-content a.video-play {
+    text-decoration: none !important;
+}
+
+.post-cover {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 0 !important;
+}
+
+/* ==========================================================================
+   Home / About page
+   ========================================================================== */
+
+.hero {
+    text-align: center;
+    padding: 80px 0 20px;
+}
+
+.post-content .hero-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.3rem, 6.5vw, 3.4rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    text-transform: none;
+    color: var(--heading);
+}
+
+.post-content .hero-subtitle {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    line-height: 1.9;
+    color: var(--label);
+    margin-top: -4px;
+}
+
+.spacer {
+    height: 90px;
+}
+
+.about-text {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.about-photo img {
+    max-width: 500px;
+    width: 100%;
+}
+
+/* ==========================================================================
+   Research / Media & Writing / Contact
+   ========================================================================== */
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 60px;
+    margin: 60px 0;
+}
+
+.post-content .section-label {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--heading);
+    padding-top: 6px;
+}
+
+/* Sections stacked on one page (Media, Research): fine rule between them */
+.section-grid + .section-grid {
+    margin-top: -20px;
+    padding-top: 40px;
+    border-top: 1px solid var(--hairline);
+}
+
+/* Entries separated by a fine rule */
+.entry {
+    margin: 0;
+    padding: 28px 0;
+    border-top: 1px solid var(--hairline);
+}
+
+.entry:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+
+/* Entry titles: bold, dark sans-serif */
+.post-content .entry > p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.entry-authors {
+    display: block;
+    margin-top: 6px;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+.abstract-toggle {
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 0.76rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--label);
+    margin-top: 14px;
+}
+
+.abstract-toggle::-webkit-details-marker {
+    display: none;
+}
+
+.abstract-toggle::before {
+    content: "+";
+    display: inline-block;
+    width: 1.3em;
+}
+
+details[open] > .abstract-toggle::before {
+    content: "–";
+}
+
+.abstract-toggle:hover {
+    color: var(--heading);
+}
+
+.post-content .abstract-text {
+    margin-top: 14px;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: var(--muted);
+}
+
+.contact-body {
+    font-size: 1rem;
+}
+
+.contact-label {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 0.76rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--label);
+}
+
+/* ==========================================================================
+   Presentations: videos with a clean thumbnail and caption
+   ========================================================================== */
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 32px;
+}
+
+.video {
+    margin: 0;
+}
+
+.video-play {
+    display: block;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background: #ececE8;
+}
+
+.video-play img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    transition: transform 0.15s ease;
+}
+
+.video-play-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -7px;
+    border-style: solid;
+    border-width: 11px 0 11px 19px;
+    border-color: transparent transparent transparent var(--heading);
+}
+
+.video-play:hover .video-play-button {
+    transform: scale(1.08);
+}
+
+.video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.video-meta {
+    display: block;
+    margin-top: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.video-meta span {
+    display: block;
+}
+
+.video-label {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 0.74rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--label);
+}
+
+.video-title {
+    margin-top: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.35;
+    color: var(--heading);
+}
+
+.video-desc {
+    font-weight: 400;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    margin-top: 4px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--muted);
+}
+
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+
+@media (max-width: 700px) {
+    header.header {
+        padding: 16px 12px !important;
+    }
+
+    ul#menu {
+        flex-wrap: wrap;
+        gap: 12px 22px !important;
+    }
+
+    .section-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin: 40px 0;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 40px;
+    }
+
+    .spacer {
+        height: 50px;
+    }
+}
