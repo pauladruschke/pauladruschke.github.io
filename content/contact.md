@@ -22,7 +22,7 @@ Contact
 
 <p>
 <span class="contact-label">LinkedIn</span><br>
-<a href="https://www.linkedin.com/in/paula-druschke">Paula Druschke</a>
+<a href="https://www.linkedin.com/in/paula-druschke" target="_blank" rel="noopener">Paula Druschke</a>
 </p>
 
 </div>

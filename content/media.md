@@ -17,8 +17,8 @@ Writing
 
 <div class="entry">
 
-[Der Globale Süden zahlt, Washington bestimmt: IWF und Weltbank brauchen eine Reform (in German)](https://www.surplusmagazin.de/iwf-weltbank-bretton-woods-reform-bangkok-treffen/)  
-<span class="entry-authors">Surplus — Paula Druschke, 12/10/2026</span>
+[Der Globale Süden zahlt, Washington bestimmt: IWF und Weltbank brauchen eine Reform](https://www.surplusmagazin.de/iwf-weltbank-bretton-woods-reform-bangkok-treffen/)  
+<span class="entry-authors">Surplus — Paula Druschke, 12/10/2026 (in German)</span>
 
 </div>
 
@@ -63,26 +63,26 @@ Talks &amp; Videos
 <div class="video-grid">
 
 <figure class="video">
-<a class="video-play" href="https://www.youtube.com/watch?v=6TAwyfCY76I" data-id="6TAwyfCY76I" data-title="The Global Democratic Deficit: Institutional Asymmetries and the Provision of Global Public Goods">
+<a class="video-play" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6TAwyfCY76I" data-id="6TAwyfCY76I" data-title="The Global Democratic Deficit and the Provision of Global Public Goods">
 <img src="https://i.ytimg.com/vi/6TAwyfCY76I/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/6TAwyfCY76I/hqdefault.jpg'">
 <span class="video-play-button" aria-hidden="true"></span>
 </a>
 <figcaption class="video-meta">
 <span class="video-label">Thammasat University · 2026</span>
-<span class="video-title">The Global Democratic Deficit: Institutional Asymmetries and the Provision of Global Public Goods</span>
-<span class="video-desc">Presenting new evidence on how voting rights and funding shape power and resource allocation across more than 60 international organisations.</span>
+<span class="video-title">The Global Democratic Deficit and the Provision of Global Public Goods</span>
+<span class="video-desc">Presentation at Thammasat University, Bangkok, of our research on how voting rights and funding shape power and resource allocation across more than 60 international organisations, and what this implies for the design of a more democratic global governance.</span>
 </figcaption>
 </figure>
 
 <figure class="video">
-<a class="video-play" href="https://www.youtube.com/watch?v=OgmAIQQMNs8" data-id="OgmAIQQMNs8" data-title="Do We Need a Bretton Woods Reset to Save the Planet?">
+<a class="video-play" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=OgmAIQQMNs8" data-id="OgmAIQQMNs8" data-title="Do We Need a Bretton Woods Reset to Save the Planet?">
 <img src="https://i.ytimg.com/vi/OgmAIQQMNs8/maxresdefault.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/OgmAIQQMNs8/hqdefault.jpg'">
 <span class="video-play-button" aria-hidden="true"></span>
 </a>
 <figcaption class="video-meta">
 <span class="video-label">World Inequality Conference · 2026</span>
 <span class="video-title">Do We Need a Bretton Woods Reset to Save the Planet?</span>
-<span class="video-desc">Panel at the World Inequality Conference 2026 on whether the Bretton Woods institutions need to be reset to respond to the climate crisis.</span>
+<span class="video-desc">Panel discussion at the World Inequality Conference 2026 on how to transform the global economic order in response to the climate crisis, global inequality and the democratic deficit of international institutions.</span>
 </figcaption>
 </figure>
 
@@ -97,8 +97,8 @@ Talks &amp; Videos
 
 <div class="entry">
 
-[Wie gerecht wird die Welt in Zukunft? (Podcast, in German)](https://vielleicht-morgen.com/folge/37-wie-gerecht-wird-die-welt-in-zukunft/)  
-<span class="entry-authors">Vielleicht Morgen, episode 37, 05/10/2026</span>
+[Wie gerecht wird die Welt in Zukunft?](https://vielleicht-morgen.com/folge/37-wie-gerecht-wird-die-welt-in-zukunft/)  
+<span class="entry-authors">Vielleicht Morgen, episode 37, 05/10/2026 (podcast, in German)</span>
 
 </div>
 

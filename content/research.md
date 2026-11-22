@@ -62,7 +62,14 @@ Projects
 <div class="entry">
 
 [Global Justice Project](https://globaljusticeproject.wid.world/)  
-<span class="entry-authors">Contributor to the Global Justice Report and co-author of the Global Justice Platform paper above</span>
+<span class="entry-authors">Chancel, L., Dietrich, J., Mohren, C., Moshrif, R., Odersky, M., Piketty, T., Somanchi, A., et al. (2026). <em>The Global Justice Report: A Plan for Equality &amp; Prosperity Within Planetary Boundaries</em>. World Inequality Lab.</span>
+
+<details>
+<summary class="abstract-toggle">Overview</summary>
+<p class="abstract-text">
+The Global Justice Project attempts to set out a new vision for global progress in the 21st century: grounding human development and equality in planetary habitability. It explores the conditions under which the world could move toward this horizon and traces an economically and ecologically consistent transition path from 2026 to 2100.
+</p>
+</details>
 
 </div>
 

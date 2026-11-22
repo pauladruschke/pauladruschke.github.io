@@ -207,15 +207,37 @@ ul#menu .active {
     color: var(--heading);
 }
 
-.post-content .hero-subtitle {
+.hero-affiliations {
+    margin-top: 6px;
+}
+
+.post-content .hero-affiliation {
+    margin: 0 0 18px;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
-    text-transform: uppercase;
     letter-spacing: 0.14em;
-    line-height: 1.9;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+
+.post-content .hero-affiliation span,
+.post-content .hero-affiliation a {
+    display: block;
+}
+
+.post-content .hero-role {
     color: var(--label);
-    margin-top: -4px;
+}
+
+.post-content .hero-affiliation a {
+    color: var(--heading);
+    text-decoration: none !important;
+}
+
+.post-content .hero-affiliation a:hover {
+    text-decoration: underline !important;
+    text-underline-offset: 0.25em !important;
 }
 
 .spacer {

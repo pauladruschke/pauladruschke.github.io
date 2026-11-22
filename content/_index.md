@@ -5,10 +5,10 @@ aliases:
 
 <div class="hero">
 <h1 class="hero-title">Paula Druschke</h1>
-<p class="hero-subtitle">
-PREDOCTORAL RESEARCH FELLOW · LSE<br>
-JUNIOR ECONOMIST · WORLD INEQUALITY LAB
-</p>
+<div class="hero-affiliations">
+<p class="hero-affiliation"><span class="hero-role">Predoctoral Research Fellow</span><a href="https://sticerd.lse.ac.uk/_new/people/person.asp?id=11717" target="_blank" rel="noopener">London School of Economics</a></p>
+<p class="hero-affiliation"><span class="hero-role">Research Fellow</span><a href="https://wid.world/team/" target="_blank" rel="noopener">World Inequality Lab, Paris School of Economics</a></p>
+</div>
 </div>
 
 <div class="spacer"></div>
@@ -17,7 +17,7 @@ JUNIOR ECONOMIST · WORLD INEQUALITY LAB
 
 <div class="about-text">
 
-Hi! I'm a Predoctoral Research Fellow at the Hub for Equal Representation at STICERD at the London School of Economics and a Junior Economist at the World Inequality Lab at the Paris School of Economics.
+Hi! I'm a Predoctoral Research Fellow at the Hub for Equal Representation at STICERD at the London School of Economics and a Research Fellow at the World Inequality Lab at the Paris School of Economics.
 
 In my research, I am very interested in understanding the various dimensions of inequality and how institutions are not neutral — in that they are both being shaped by and reproducing such inequalities. Ultimately, I seek to produce research that does not remain confined to academic journals but speaks to the real challenges of our time and can be used by policymakers around the world.
 

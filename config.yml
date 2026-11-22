@@ -28,7 +28,7 @@ menu:
 
 params:
     fontsURL: "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@500;600;700&display=swap"
-    description: "Paula Druschke is a Predoctoral Research Fellow at LSE and Junior Economist at the World Inequality Lab."
+    description: "Paula Druschke is a Predoctoral Research Fellow at LSE and Research Fellow at the World Inequality Lab."
     author: Paula Druschke
     DateFormat: "January 2006"
     defaultTheme: light
