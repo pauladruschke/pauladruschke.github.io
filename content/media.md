@@ -1,5 +1,6 @@
 ---
 layout: "single"
+title: "Media"
 tabtitle: "Media"
 description: "Writing, press coverage, talks and videos by Paula Druschke."
 url: "/media/"

@@ -1,5 +1,6 @@
 ---
 layout: "single"
+title: "Contact"
 tabtitle: "Contact"
 description: "Contact details for Paula Druschke."
 url: "/contact/"

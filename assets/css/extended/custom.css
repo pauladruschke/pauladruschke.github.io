@@ -161,6 +161,12 @@ ul#menu .active {
     display: none !important;
 }
 
+/* Pages carry a title for search engines, but the visible heading is made invisible without changing the layout */
+.post-header .post-title {
+    font-size: 0;
+    line-height: 0;
+}
+
 /* Links inside pages: dark, thin underline, black on hover */
 .post-content a {
     text-decoration: underline !important;

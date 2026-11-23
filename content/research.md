@@ -1,5 +1,6 @@
 ---
 layout: "single"
+title: "Research"
 tabtitle: "Research"
 description: "Research by Paula Druschke on global inequality, international institutions and global public goods."
 url: "/research/"
